@@ -1,0 +1,12 @@
+g++-12
+-std=gnu++23
+{FILE_NAME}.cpp
+-o
+{FILE_NAME}
+-include
+{BASE_PATH}/library/header/{HEADER_NAME}.hpp
+-I
+{BASE_PATH}
+-O2
+-mtune=native
+-march=native

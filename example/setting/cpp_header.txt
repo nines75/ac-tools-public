@@ -1,0 +1,10 @@
+g++-12
+-std=gnu++23
+{HEADER_PATH}
+-o
+{BASE_PATH}/library/header/{FILE_NAME}.hpp.gch
+-I
+{BASE_PATH}
+-O2
+-mtune=native
+-march=native

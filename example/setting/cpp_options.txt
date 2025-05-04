@@ -1,0 +1,10 @@
+-g
+-Wall
+-Wextra
+-Wshadow
+-Wfloat-equal
+-Wno-char-subscripts
+-Wno-expansion-to-defined
+-ftrapv
+-fsanitize=address,undefined
+-fno-omit-frame-pointer
